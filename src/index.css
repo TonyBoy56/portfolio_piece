@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.tony-card {
+  margin: 20px;
+}
+
+.tony-card-image {
+  border-radius: 10px;
+  width:300px;
+  height: 480px;
+  box-shadow: 0px 0px 3px 1px #ccc;
+}
+
+.tony-card-info {
+  margin-top: 10px;
+  min-height: 100px;
+}
+
+.tony-card-title {
+  font-size: 24px;
+  margin: 0px;
+}
+
+.tony-card-subTitle {
+  font-size: 16px;
+  margin: 0px;
+}

@@ -1,8 +1,12 @@
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 
-// import images
 import Card from '../components/Card';
+
+import image1 from '../assets/images/image1.jpeg';
+import image2 from '../assets/images/image2.jpg';
+import image3 from '../assets/images/image3.jpg';
+
 
 
 class Carousel extends React.Component {
@@ -13,26 +17,26 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'PlaceHolder',
+                    title: 'Image1',
                     subTitle: 'This is a thing that does stuff',
-                    imgSrc: "devgrub",
-                    link: '',
+                    imgSrc: image1,
+                    link: 'Insert Link Here',
                     selected: false
                 },
                 {
                     id: 0,
-                    title: 'PlaceHolder',
+                    title: 'Image2',
                     subTitle: 'This is a thing that does stuff',
-                    imgSrc: "devgrub",
-                    link: '',
+                    imgSrc: image2,
+                    link: 'Insert Link Here',
                     selected: false
                 },
                 {
                     id: 0,
-                    title: 'PlaceHolder',
+                    title: 'Image3',
                     subTitle: 'This is a thing that does stuff',
-                    imgSrc: "devgrub",
-                    link: '',
+                    imgSrc: image3,
+                    link: 'Insert Link Here',
                     selected: false
                 },
             ]
@@ -65,7 +69,7 @@ class Carousel extends React.Component {
         return(
             <Container fluid={true}>
                 <Row className="justify-content-around">
-
+                    {this.makeItems(this.state.items)}
                 </Row>
             </Container>
         );
