@@ -24,7 +24,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 0,
+                    id: 1,
                     title: 'Image2',
                     subTitle: 'This is a thing that does stuff',
                     imgSrc: image2,
@@ -32,7 +32,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 0,
+                    id: 2,
                     title: 'Image3',
                     subTitle: 'This is a thing that does stuff',
                     imgSrc: image3,
