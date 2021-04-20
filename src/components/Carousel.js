@@ -18,7 +18,7 @@ class Carousel extends React.Component {
                 {
                     id: 0,
                     title: 'Image1',
-                    subTitle: 'This is a thing that does stuff',
+                    subTitle: 'Java And The Quest For The Scripts!',
                     imgSrc: image1,
                     link: 'Insert Link Here',
                     selected: false
@@ -26,7 +26,7 @@ class Carousel extends React.Component {
                 {
                     id: 1,
                     title: 'Image2',
-                    subTitle: 'This is a thing that does stuff',
+                    subTitle: 'Sh!t! I Can Cook!',
                     imgSrc: image2,
                     link: 'Insert Link Here',
                     selected: false
@@ -34,7 +34,7 @@ class Carousel extends React.Component {
                 {
                     id: 2,
                     title: 'Image3',
-                    subTitle: 'This is a thing that does stuff',
+                    subTitle: 'Third-Project',
                     imgSrc: image3,
                     link: 'Insert Link Here',
                     selected: false
