@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Container as Container } from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from'react-bootstrap/Nav';
-// import NavbarBrand from 'react-bootstrap/NavbarBrand';
 import './App.css';
 
 import Footer from './components/Footer';
@@ -23,8 +22,8 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact' }
       ],
       home: {
-        title: "Title",
-        subTitle: "Projects that make a difference",
+        title: "CruzOps",
+        subTitle: "Buildling Quality of Life Services For The Average Consumer",
         text: "Come see my work!"
       },
       about: {

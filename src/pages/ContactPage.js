@@ -1,8 +1,16 @@
 import React from 'react';
-
-function ContactPage() {
+import Hero from '../components/Hero';
+import Content from '../components/Content';
+import { propTypes } from 'react-bootstrap/esm/Image';
+function ContactPage(props) {
     return (
-        <p>ContactPage works!</p>
+        <div>
+            <Hero title={props.title} />
+
+            <Content>
+                
+            </Content>
+        </div>
     );
 }
 
